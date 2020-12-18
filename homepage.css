@@ -1,0 +1,105 @@
+/*
+=======================================
+Portal
+=======================================
+*/
+
+.portal-all {
+    height: 70vh;
+    background-color: black;
+    background-image: url('../img/LizziesPizzaMainImage.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.portal-all a:hover {
+    background-color: #ba1501;
+    transition: background-color 0.5s;
+}
+
+.portal-all .content {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+}
+
+.portal-all .description {
+    background-color: #ba1501;
+    color: white;
+}
+
+.portal-all .description p {
+    padding-right: 250px;
+    font-size: 13px;
+}
+
+.portal-all .order {
+    width: 200px;
+    border: solid 1px white;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f13a0e;
+    color: white;
+}
+
+
+/*
+=======================================
+Specials
+=======================================
+*/
+
+.specials-all {
+    padding: 20px;
+}
+
+.specials-all .box-group {
+    display: flex;
+}
+
+.specials-all .box-group .box-col {
+    flex: 1;
+}
+
+.specials-all .box {
+    background-color: #f13a0e;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 60px;
+    font-family: serif;
+    margin: 5px;
+    text-shadow: 2px 2px 8px black;
+    border-radius: 10px;
+}
+
+.specials-all a:hover {
+    background-color: #ba1501;
+    transition: background-color 0.5s;
+}
+
+
+/* devices */
+
+
+/*tablet*/
+
+@media only screen and (max-width: 1000px) {}
+
+
+/*mobile*/
+
+@media only screen and (max-width: 600px) {
+    .specials-all .box {
+        font-size: 30px;
+    }
+}

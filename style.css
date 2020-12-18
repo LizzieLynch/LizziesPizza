@@ -1,0 +1,429 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        background-color: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        text-rendering: optimizelegibility;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .row {
+        max-width: 1140px;
+        margin: 0, auto;
+    }
+    
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.986)), url(LizziesPizzaMainImageTwo.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin-bottom: 100px;
+    }
+    
+    .trending a {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 21px;
+        font-weight: 300;
+        color: white;
+        text-align: centre;
+        text-decoration: none;
+    }
+    
+    .trending {
+        background-color: #f13a0e;
+        color: white;
+        padding: 20px;
+        border: 10px;
+        font-weight: 100px;
+        text-align: center;
+        width: 15%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        position: absolute;
+        top: 5%;
+        left: 18%;
+        height: 5%;
+        border-radius: 25px;
+    }
+    
+    .myfavourites a {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 21px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .myfavourites {
+        background-color: #ba1501;
+        color: white;
+        padding: 20px;
+        border: 10px;
+        width: 15%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        position: absolute;
+        top: 5%;
+        left: 42%;
+        height: 5%;
+        border-radius: 25px;
+    }
+    
+    .basket a {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 21px;
+        color: white;
+        text-decoration: none;
+        text-align: centre;
+    }
+    
+    .basket {
+        background-color: #f13a0e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border: 10px;
+        width: 15%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        position: absolute;
+        top: 5%;
+        right: 17%;
+        height: 5%;
+        border-radius: 25px;
+    }
+    
+    .ordernow a {
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .ordernow {
+        background-color: #f13a0e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border: 10px;
+        width: 17%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        position: absolute;
+        top: 85%;
+        right: 3%;
+        height: 12%;
+        border-radius: 15px;
+    }
+    
+    .footer {
+        background-color: #ba1501;
+        color: white;
+        margin: 10px;
+        padding: 20px;
+        border: 20px;
+        text-align: center;
+        width: 100%;
+        height: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    
+    .footer a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .Logo {
+        width: 10%;
+        height: 10%;
+        position: absolute;
+    }
+    
+    .person {
+        width: 5%;
+        height: 5%;
+        margin: auto;
+        position: absolute;
+        top: 5%;
+        left: 95%;
+    }
+    
+    .pin {
+        width: 5%;
+        height: 5%;
+        margin: auto;
+        position: absolute;
+        top: 5%;
+        left: 92%;
+    }
+    
+    .createyourown {
+        top: 135%;
+        left: 30%;
+        width: 15%;
+        height: 30%;
+        margin: auto;
+        border-radius: 10px;
+        position: absolute;
+        background-color: #f13a0e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border: 10px;
+        font-size: 250%;
+        font-family: DM Serif Display;
+        letter-spacing: 4px;
+        text-shadow: 2px 2px 8px black;
+        display: inline-block;
+    }
+    
+    .halfandhalf {
+        top: 135%;
+        left: 49%;
+        width: 15%;
+        height: 30%;
+        border-radius: 10px;
+        position: absolute;
+        background-color: #ba1501;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border: 10px;
+        font-size: 250%;
+        font-family: DM Serif Display;
+        letter-spacing: 4px;
+        text-shadow: 2px 2px 8px black;
+        display: inline-block;
+    }
+    
+    .secondmainimage {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.986), rgba(0, 0, 0, 0.226)), url(MainImageSecond.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    .deals {
+        top: 180%;
+        width: 52%;
+        margin: auto;
+        left: 21%;
+        height: 20%;
+        border-radius: 10px;
+        position: absolute;
+        background-color: #f13a0e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border: 10px;
+        font-size: 250%;
+        font-family: DM Serif Display;
+        letter-spacing: 4px;
+        text-shadow: 2px 2px 8px black;
+    }
+    
+    .menu {
+        background-color: white;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.986)), url(LizziesPizzaMainImageTwo.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin-bottom: 100px;
+        repeat: no-repeat;
+    }
+    
+    .pizza {
+        background-color: #f13a0e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border: 10px;
+        width: 20%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        height: 6%;
+        border-radius: 15px;
+    }
+    
+    .pizza a {
+        color: white;
+        text-decoration: none;
+        text-align: centre;
+    }
+    
+    .sides {
+        background-color: #f13a0e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border: 10px;
+        width: 20%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        height: 6%;
+        border-radius: 15px;
+    }
+    
+    .sides a {
+        color: white;
+        text-decoration: none;
+        text-align: centre;
+    }
+    
+    .dessertsanddrinks {
+        background-color: #f13a0e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border: 10px;
+        width: 20%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        height: 6%;
+        border-radius: 15px;
+    }
+    
+    .dessertsanddrinks a {
+        color: white;
+        text-decoration: none;
+        text-align: centre;
+    }
+    
+    .margheritapic img {
+        top: 35%;
+        left: 15%;
+        position: absolute;
+        border-radius: 10px;
+    }
+    
+    .margdetails {
+        top: 58%;
+        left: 15%;
+        position: absolute;
+        color: white;
+        background-color: #f13a0e;
+        width: 17%;
+        border-radius: 2px;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    
+    .margbasket {
+        color: white;
+        background-color: #ba1501;
+        width: 6%;
+        height: 3%;
+        font-size: 13px;
+        text-align: center;
+        border-radius: 20px;
+        position: absolute;
+        top: 55%;
+        left: 26%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    
+    .pepperonipic img {
+        top: 35%;
+        left: 36%;
+        position: absolute;
+        border-radius: 10px;
+    }
+    
+    .pepdetails {
+        top: 58%;
+        left: 36%;
+        position: absolute;
+        color: white;
+        background-color: #f13a0e;
+        width: 17%;
+        border-radius: 2px;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    
+    .pepbasket {
+        color: white;
+        background-color: #ba1501;
+        width: 6%;
+        height: 3%;
+        font-size: 13px;
+        text-align: center;
+        border-radius: 20px;
+        position: absolute;
+        top: 55%;
+        left: 47%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    
+    .hawaiianpic img {
+        top: 35%;
+        left: 57%;
+        position: absolute;
+        border-radius: 10px;
+    }
+    
+    .hawdetails {
+        top: 58%;
+        left: 57%;
+        position: absolute;
+        color: white;
+        background-color: #f13a0e;
+        width: 17%;
+        border-radius: 2px;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    
+    .hawbasket {
+        color: white;
+        background-color: #ba1501;
+        width: 6%;
+        height: 3%;
+        font-size: 13px;
+        text-align: center;
+        border-radius: 20px;
+        position: absolute;
+        top: 55%;
+        left: 68%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    
+    .bbqchickenpic img {
+        top: 70%;
+        left: 15%;
+        position: absolute;
+        border-radius: 10px;
+    }
+    
+    .bbqdetails {
+        top: 87%;
+        left: 15%;
+        position: absolute;
+        color: white;
+        background-color: #f13a0e;
+        width: 17%;
+        border-radius: 2px;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    
+    .bbqbasket {
+        color: white;
+        background-color: #ba1501;
+        width: 6%;
+        height: 3%;
+        font-size: 13px;
+        text-align: center;
+        border-radius: 20px;
+        position: absolute;
+        top: 84%;
+        left: 26%;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
